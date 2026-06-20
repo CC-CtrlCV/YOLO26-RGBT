@@ -35,7 +35,7 @@ pip install -e .
 
 ### 2. 准备数据集
 
-推荐数据结构：
+推荐数据结构：（本项目使用的数据集结构说明文档在docs里面）
 
 ```text
 YourDataset/
