@@ -370,9 +370,7 @@ class BaseDataset(Dataset):
         rgb_token, ir_token = self.rgbt_pair
         path = str(rgb_path)
         if rgb_token not in path:
-            raise FileNotFoundError(
-                f"RGBT path pairing requires '{rgb_token}' in the RGB image path, but got {path}"
-            )
+            raise FileNotFoundError(f"RGBT path pairing requires '{rgb_token}' in the RGB image path, but got {path}")
         return path.replace(rgb_token, ir_token, 1)
 
     def _read_image(self, file: str | Path) -> np.ndarray | None:
