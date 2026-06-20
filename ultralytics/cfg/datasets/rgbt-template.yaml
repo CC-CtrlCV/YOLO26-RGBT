@@ -1,0 +1,17 @@
+# Ultralytics AGPL-3.0 License - https://ultralytics.com/license
+
+# Generic RGBT dataset template.
+# The loader reads train/val from the visible path and locates infrared images by replacing
+# the first token in rgbt_pair with the second token.
+
+path: /path/to/rgbt-dataset
+train: visible/train
+val: visible/val
+test:
+
+channels: 4
+rgbt: true
+rgbt_pair: [visible, infrared]
+
+names:
+  0: person

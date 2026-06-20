@@ -1,0 +1,28 @@
+# Ultralytics AGPL-3.0 License - https://ultralytics.com/license
+
+# KAIST8 RGBT dataset example.
+# Expected pairing: visible/train/name.jpg -> infrared/train/name.jpg
+
+# path: E:/BaiduNetdiskDownload/RGBTO/KAIST8
+# train: visible/train
+# val: visible/test
+# test:
+
+# channels: 4
+# rgbt: true
+# rgbt_pair: [visible, infrared]
+
+# names:
+#   0: person
+
+path: D:/XM/SJJ/KAIST8
+train: visible/train
+val: visible/test
+test:
+
+channels: 4
+rgbt: true
+rgbt_pair: [visible, infrared]
+
+names:
+  0: person
