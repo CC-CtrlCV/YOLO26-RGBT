@@ -8,7 +8,6 @@ from ultralytics import YOLO
 from ultralytics.data.build import load_inference_source
 from ultralytics.data.dataset import YOLODataset
 
-
 RGBT_MODELS = (
     "ultralytics/cfg/models/v5-RGBT/yolov5-rgbt-earlyfusion.yaml",
     "ultralytics/cfg/models/v5-RGBT/yolov5-rgbt-midfusion.yaml",
