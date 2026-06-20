@@ -365,4 +365,3 @@ yolo26-rgbt-midfusion.yaml
 ```text
 本项目提供三种 RGBT 检测模型配置。第一种是基于原版 YOLO26 的简单 4 通道输入版本，可作为 early fusion baseline；第二种是 yolo26-rgbt-earlyfusion，将 RGB 与红外图像在输入层拼接后送入 YOLO26 主干网络；第三种是 yolo26-rgbt-midfusion，分别对 RGB 与红外分支进行特征提取，并在中间层进行特征拼接融合。相比普通 RGB YOLO26，RGBT 模型能够同时利用可见光纹理信息和红外热辐射信息，更适合夜间、弱光和复杂天气条件下的目标检测任务。
 ```
-
