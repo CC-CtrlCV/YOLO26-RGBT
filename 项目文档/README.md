@@ -17,4 +17,4 @@
 
 - [RGBT快速开始](RGBT快速开始.md)
 - [使用说明书](使用说明书.md)
-- [README_RGBT_中文](README_RGBT_中文.md)
+- [README*RGBT*中文](README_RGBT_中文.md)

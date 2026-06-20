@@ -40,16 +40,16 @@ __pycache__/
 
 当前项目目录中可能存在以下本地运行产物：
 
-| 文件或目录 | 建议 | 原因 |
-| --- | --- | --- |
-| `runs/` | 不提交 | 训练、验证、推理结果通常较大，属于本地实验产物 |
-| `yolo26n.pt` | 不提交 | 预训练权重文件较大，且 `.gitignore` 已忽略 `*.pt` |
-| `ultralytics/settings.json` | 不提交 | Ultralytics 本机运行配置，不适合作为开源配置 |
-| `.vscode/` | 视情况不提交 | 编辑器个人配置，不一定适合所有用户 |
-| `__pycache__/` | 不提交 | Python 缓存文件 |
-| `yolo_train.py` | 可删除或移到 examples | 普通 YOLO 训练脚本，容易和 RGBT 入口混淆 |
-| `yolo_val.py` | 可删除或移到 examples | 普通 YOLO 验证脚本，容易和 RGBT 入口混淆 |
-| `yolo_predict.py` | 可删除或移到 examples | 普通 YOLO 推理脚本，容易和 RGBT 入口混淆 |
+| 文件或目录                  | 建议                  | 原因                                              |
+| --------------------------- | --------------------- | ------------------------------------------------- |
+| `runs/`                     | 不提交                | 训练、验证、推理结果通常较大，属于本地实验产物    |
+| `yolo26n.pt`                | 不提交                | 预训练权重文件较大，且 `.gitignore` 已忽略 `*.pt` |
+| `ultralytics/settings.json` | 不提交                | Ultralytics 本机运行配置，不适合作为开源配置      |
+| `.vscode/`                  | 视情况不提交          | 编辑器个人配置，不一定适合所有用户                |
+| `__pycache__/`              | 不提交                | Python 缓存文件                                   |
+| `yolo_train.py`             | 可删除或移到 examples | 普通 YOLO 训练脚本，容易和 RGBT 入口混淆          |
+| `yolo_val.py`               | 可删除或移到 examples | 普通 YOLO 验证脚本，容易和 RGBT 入口混淆          |
+| `yolo_predict.py`           | 可删除或移到 examples | 普通 YOLO 推理脚本，容易和 RGBT 入口混淆          |
 
 注意：如果要删除这些文件，请先确认路径，尤其是在 Windows 下路径大小写不敏感，避免误删 `ultralytics/` 源码目录。
 
