@@ -344,5 +344,6 @@ rgbt: true
 ultralytics/cfg/models/26-RGBT/yolo26-rgbt-midfusion.yaml
 ```
 
+```
 
 ```
